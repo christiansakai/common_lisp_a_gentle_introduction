@@ -1,15 +1,7 @@
 ; 3.6
-(defun half (n)
-  (/ n 2))
-
-(defun cube (n)
-  (* n n n))
-
-(defun onemorep (x y)
-  (= x (+ y 1)))
+(defun pythag (x y)
+  (sqrt (+ (* x x) (* y y))))
 
 ; Test Cases
-; (format t "~a~%" (half 6))
-; (format t "~a~%" (cube 2))
-; (format t "~a~%" (onemorep 4 3))
+; (format t "~a~%" (pythag 3 4))
 
